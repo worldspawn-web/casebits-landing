@@ -1,0 +1,29 @@
+@import '../../../scss/colors.scss';
+
+.btn__icon__active {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  width: 48px;
+  height: 48px;
+
+  background-color: $white;
+
+  border-radius: 12px;
+}
+
+.btn__icon {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  width: 48px;
+  height: 48px;
+
+  background-color: $astronaut;
+
+  border-radius: 12px;
+}
