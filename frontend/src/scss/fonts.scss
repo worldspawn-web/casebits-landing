@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'CeraPro';
+  src: local('CeraPro'), url(../fonts/CeraPro-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'CeraPro';
+  font-weight: 500;
+  src: local('CeraPro'), url(../fonts/CeraPro-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'GTWalsheimPro';
+  src: local('GTWalsheimPro'),
+    url(../fonts/GTWalsheimPro-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'GTWalsheimPro';
+  font-weight: 500;
+  src: local('GTWalsheimPro'),
+    url(../fonts/GTWalsheimPro-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'GTWalsheimPro';
+  font-weight: 700;
+  src: local('GTWalsheimPro'),
+    url(../fonts/GTWalsheimPro-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'VisbyCF';
+  font-weight: 600;
+  src: local('VisbyCF'),
+    url(../fonts/Fontspring-DEMO-visbycf-demibold.otf) format('opentype');
+}
