@@ -6,10 +6,11 @@ export const Button = styled.a<{ $big?: boolean; $secondary?: boolean }>`
   justify-content: center;
   align-items: center;
 
-  width: ${(props) => (props.$big ? '145px' : '129px')};
+  padding: 10px 24px;
+
   height: ${(props) => (props.$big ? '48px' : '40px')};
 
-  background-color: ${(props) => (props.$secondary ? '$cinder' : '$royal-blue')}
+  background-color: ${(props) => (props.$secondary ? '#040305' : '#574ae2')};
 
   color: $white;
 
