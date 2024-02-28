@@ -1,4 +1,4 @@
-@import './scss/fonts.scss';
+@import url(./scss/fonts.scss);
 @import './scss/colors.scss';
 
 * {
@@ -9,5 +9,5 @@
 }
 
 body {
-  background-color: $background;
+  background-color: $cinder;
 }
