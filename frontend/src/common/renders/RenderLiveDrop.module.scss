@@ -1,0 +1,29 @@
+@import '../../scss/colors.scss';
+
+.drop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 144px;
+  height: 192px;
+
+  background-color: black;
+
+  border-radius: 16px;
+}
+
+.drop__name {
+  color: $white;
+
+  font-family: 'CeraPro';
+  font-size: 12px;
+
+  margin: 16px 16px 0 16px;
+}
+
+.drop__image {
+  width: 120px;
+  height: 140px;
+}
