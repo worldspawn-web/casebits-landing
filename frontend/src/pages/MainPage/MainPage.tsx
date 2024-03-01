@@ -1,11 +1,12 @@
 import { Background } from '../../assets';
-import { NavBar } from '../../common';
+import { LiveDrop, NavBar } from '../../common';
 
 export const MainPage = () => {
   return (
     <>
       <Background />
       <NavBar />
+      <LiveDrop />
     </>
   );
 };
