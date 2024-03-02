@@ -8,7 +8,7 @@ export const RenderLiveDrop = () => {
   const { drop } = data;
   return drop.map((win: { name: string; img: string; color: string }) => {
     return (
-      <LivedropCard $type="legendary">
+      <LivedropCard $type={win.color}>
         <span className={styles.drop__name}>{win.name}</span>
         <img className={styles.drop__image} src={win.img} />
         <span className={styles.drop__color} />
