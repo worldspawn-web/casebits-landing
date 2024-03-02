@@ -3,7 +3,47 @@
     {
       "name": "StatTrak™ MAC-10 | Neon Rider",
       "img": "./src/assets/skins/mac10_neonrider_st.png",
-      "color": "#f19a38"
+      "color": "legendary"
+    },
+    {
+      "name": "Desert Eagle | Blaze",
+      "img": "./src/assets/skins/deagle_blaze.png",
+      "color": "pink"
+    },
+    {
+      "name": "AK-47 | The Empress",
+      "img": "./src/assets/skins/ak47_the_empress.png",
+      "color": "pink"
+    },
+    {
+      "name": "AK-47 | Neon Revolution",
+      "img": "./src/assets/skins/ak47_neon_revolution.png",
+      "color": "legendary"
+    },
+    {
+      "name": "StatTrak™ Glock-18 | Vogue",
+      "img": "./src/assets/skins/glock_vogue_st.png",
+      "color": "pink"
+    },
+    {
+      "name": "Talon Knife | Marble Fade",
+      "img": "./src/assets/skins/talon_marble_fade.png",
+      "color": "legendary"
+    },
+    {
+      "name": "USP-S | Neo-Noir",
+      "img": "./src/assets/skins/usp_neo-noir.png",
+      "color": "blue"
+    },
+    {
+      "name": "Specialist Gloves | Foundation",
+      "img": "./src/assets/skins/gloves_foundation.png",
+      "color": "legendary"
+    },
+    {
+      "name": "StatTrak™ MAC-10 | Neon Rider",
+      "img": "./src/assets/skins/mac10_neonrider_st.png",
+      "color": "legendary"
     }
   ]
 }
