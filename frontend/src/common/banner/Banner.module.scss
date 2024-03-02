@@ -1,0 +1,38 @@
+@import '../../scss/colors.scss';
+
+.banner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  width: 1422px;
+
+  margin: 0 auto;
+}
+
+.banner__image {
+  width: 648px;
+}
+
+.banner__subheader {
+  color: $jaffa;
+
+  font-size: 24px;
+  font-family: 'CeraPro';
+
+  text-transform: uppercase;
+}
+
+.banner__header {
+  color: $white;
+
+  font-size: 64px;
+  font-family: 'CeraPro';
+}
+
+.banner__description {
+  color: $white;
+
+  font-size: 24px;
+  font-family: 'CeraPro';
+}
