@@ -1,3 +1,5 @@
+import { LoginButton } from '..';
+import { Steam } from '../../assets/icons/Steam';
 import styles from './Banner.module.scss';
 
 export const Banner = () => {
@@ -18,6 +20,10 @@ export const Banner = () => {
           with the highest probability of dropping
         </p>
         <p className={styles.banner__description}>fatty items</p>
+        <LoginButton>
+          <Steam />
+          login on steam
+        </LoginButton>
       </div>
     </section>
   );
