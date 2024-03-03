@@ -1,0 +1,34 @@
+@import '../../scss/colors.scss';
+
+.stats {
+  display: flex;
+  flex-direction: row;
+  gap: 72px;
+
+  width: 900px;
+
+  margin: 0 auto 126px auto;
+
+  font-family: 'CeraPro';
+
+  color: $white;
+}
+
+.stats__section {
+  max-width: 225px;
+}
+
+.stats__numbers {
+  font-size: 64px;
+}
+
+.stats__profit {
+  color: $jaffa;
+}
+
+.stats__description {
+  font-size: 24px;
+
+  max-width: 100%;
+  text-wrap: wrap;
+}

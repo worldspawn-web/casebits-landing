@@ -1,5 +1,5 @@
 import { Background } from '../../assets';
-import { Banner, LiveDrop, NavBar } from '../../common';
+import { Banner, LiveDrop, NavBar, ServiceStats } from '../../common';
 
 export const MainPage = () => {
   return (
@@ -8,6 +8,7 @@ export const MainPage = () => {
       <NavBar />
       <LiveDrop />
       <Banner />
+      <ServiceStats />
     </>
   );
 };
