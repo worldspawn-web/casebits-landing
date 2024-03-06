@@ -1,5 +1,12 @@
 import { Background } from '../../assets';
-import { Banner, LiveDrop, NavBar, ServiceStats } from '../../common';
+import {
+  Banner,
+  Conditions,
+  FreeCasePromo,
+  LiveDrop,
+  NavBar,
+  ServiceStats,
+} from '../../common';
 
 export const MainPage = () => {
   return (
@@ -9,6 +16,8 @@ export const MainPage = () => {
       <LiveDrop />
       <Banner />
       <ServiceStats />
+      <FreeCasePromo />
+      <Conditions />
     </>
   );
 };
