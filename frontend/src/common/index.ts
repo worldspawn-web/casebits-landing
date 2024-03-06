@@ -6,3 +6,5 @@ export * from './utils';
 export * from './cards';
 export * from './banner';
 export * from './stats';
+export * from './promo';
+export * from './conditions';
