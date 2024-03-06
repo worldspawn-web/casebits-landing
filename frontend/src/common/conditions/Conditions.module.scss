@@ -1,0 +1,46 @@
+@import './../../scss/colors.scss';
+
+.conditions__wrapper {
+  width: 1424px;
+
+  color: $white;
+
+  font-family: 'CeraPro';
+
+  margin-bottom: 200px;
+}
+
+.conditions__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  h2 {
+    max-width: 336px;
+
+    font-size: 32px;
+    font-weight: 500;
+  }
+}
+
+.conditions__row:last-child {
+  margin-top: 74px;
+}
+
+.condition {
+  width: 384px;
+
+  h3 {
+    font-size: 28px;
+    font-weight: 400;
+  }
+
+  span {
+    color: $wild-blue;
+    font-size: 18px;
+  }
+}
+
+.conditions__img {
+  width: 336px;
+}
