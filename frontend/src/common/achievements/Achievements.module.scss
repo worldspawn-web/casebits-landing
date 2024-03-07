@@ -1,0 +1,55 @@
+@import '../../scss/colors.scss';
+
+.achievements__wrapper {
+  display: flex;
+  flex-direction: row;
+
+  width: 1424px;
+
+  margin: 0 auto 180px auto;
+
+  color: $white;
+  font-family: 'CeraPro';
+}
+
+.achievements__heading {
+  width: 704;
+
+  h2 {
+    font-size: 38px;
+    font-weight: 500;
+
+    max-width: 644px;
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: 400;
+
+    max-width: 664px;
+  }
+
+  .achievements__button {
+    margin-top: 40px;
+
+    width: 200px;
+  }
+}
+
+.achievements__examples {
+  display: flex;
+  flex-direction: row;
+
+  width: 720px;
+
+  gap: 16px;
+}
+
+.achievements__column {
+  display: flex;
+  flex-direction: column;
+
+  width: 224px;
+
+  gap: 16px;
+}

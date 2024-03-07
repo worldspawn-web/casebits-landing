@@ -8,3 +8,4 @@ export * from './banner';
 export * from './stats';
 export * from './promo';
 export * from './conditions';
+export * from './achievements';
