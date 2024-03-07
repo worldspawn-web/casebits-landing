@@ -1,5 +1,6 @@
 import { Background } from '../../assets';
 import {
+  Achievements,
   Banner,
   Conditions,
   FreeCasePromo,
@@ -18,6 +19,7 @@ export const MainPage = () => {
       <ServiceStats />
       <FreeCasePromo />
       <Conditions />
+      <Achievements />
     </>
   );
 };
